@@ -1,0 +1,157 @@
+2016-08-03 20:40:36 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2016-08-03 20:40:36 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-08-03 20:40:36 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-08-03 20:40:36 INFO  AnnotationConfigApplicationContext:581 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@dcf3e99: startup date [Wed Aug 03 20:40:36 EEST 2016]; root of context hierarchy
+2016-08-03 20:40:36 DEBUG AnnotationConfigApplicationContext:615 - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@dcf3e99: org.springframework.beans.factory.support.DefaultListableBeanFactory@1794d431: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig]; root of factory hierarchy
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-08-03 20:40:36 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method ua.goit.java.AppConfig.calculator()
+2016-08-03 20:40:36 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method ua.goit.java.AppConfig.mathExpressionParser()
+2016-08-03 20:40:36 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method ua.goit.java.AppConfig.logAspect()
+2016-08-03 20:40:36 DEBUG ConfigurationClassEnhancer:109 - Successfully enhanced ua.goit.java.AppConfig; enhanced class name is: ua.goit.java.AppConfig$$EnhancerBySpringCGLIB$$dee5838a
+2016-08-03 20:40:36 DEBUG ConfigurationClassPostProcessor:409 - Replacing bean definition 'appConfig' existing class 'ua.goit.java.AppConfig' with enhanced class 'ua.goit.java.AppConfig$$EnhancerBySpringCGLIB$$dee5838a'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-08-03 20:40:36 DEBUG AnnotationConfigApplicationContext:728 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@78b1cc93]
+2016-08-03 20:40:36 DEBUG AnnotationConfigApplicationContext:752 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@3a079870]
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:745 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1794d431: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,calculator,mathExpressionParser,logAspect,org.springframework.aop.config.internalAutoProxyCreator]; root of factory hierarchy
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-08-03 20:40:36 DEBUG ReflectiveAspectJAdvisorFactory:226 - Found AspectJ method: public java.lang.Object ua.goit.java.LogAspect.onExecute(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'appConfig'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'appConfig'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2016-08-03 20:40:36 DEBUG AnnotationAwareAspectJAutoProxyCreator:528 - Creating implicit proxy for bean 'appConfig' with 0 common interceptors and 2 specific interceptors
+2016-08-03 20:40:36 DEBUG CglibAopProxy:159 - Creating CGLIB proxy: target source is SingletonTargetSource for target object [ua.goit.java.AppConfig$$EnhancerBySpringCGLIB$$dee5838a@1f2586d6]
+2016-08-03 20:40:36 DEBUG CglibAopProxy:833 - Unable to apply any optimisations to advised method: public ua.goit.gojavaonline.Calculator ua.goit.java.AppConfig.calculator()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:833 - Unable to apply any optimisations to advised method: public ua.goit.gojavaonline.MathExpressionParser ua.goit.java.AppConfig.mathExpressionParser(ua.goit.gojavaonline.Calculator)
+2016-08-03 20:40:36 DEBUG CglibAopProxy:833 - Unable to apply any optimisations to advised method: public ua.goit.java.LogAspect ua.goit.java.AppConfig.logAspect()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:797 - Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)
+2016-08-03 20:40:36 DEBUG CglibAopProxy:833 - Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:802 - Found 'hashCode' method: public native int java.lang.Object.hashCode()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:833 - Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+2016-08-03 20:40:36 DEBUG CglibAopProxy:833 - Unable to apply any optimisations to advised method: public abstract void org.springframework.beans.factory.BeanFactoryAware.setBeanFactory(org.springframework.beans.factory.BeanFactory) throws org.springframework.beans.BeansException
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'appConfig'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'calculator'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'calculator'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'appConfig'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'logAspect'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'logAspect'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'appConfig'
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'logAspect' to allow for resolving potential circular references
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'logAspect'
+2016-08-03 20:40:36 DEBUG LogAspect:23 - logging : Calculator ua.goit.java.AppConfig.calculator()
+2016-08-03 20:40:36 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'calculator' to allow for resolving potential circular references
+2016-08-03 20:40:36 DEBUG AnnotationAwareAspectJAutoProxyCreator:528 - Creating implicit proxy for bean 'calculator' with 0 common interceptors and 2 specific interceptors
+2016-08-03 20:40:36 DEBUG CglibAopProxy:159 - Creating CGLIB proxy: target source is SingletonTargetSource for target object [ua.goit.gojavaonline.Calculator@291caca8]
+2016-08-03 20:40:36 DEBUG CglibAopProxy:833 - Unable to apply any optimisations to advised method: public java.util.Map ua.goit.gojavaonline.Calculator.getOperatorsList()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:833 - Unable to apply any optimisations to advised method: public ua.goit.gojavaonline.Operator ua.goit.gojavaonline.Calculator.getOperatorBySign(java.lang.String)
+2016-08-03 20:40:36 DEBUG CglibAopProxy:833 - Unable to apply any optimisations to advised method: public java.lang.String ua.goit.gojavaonline.Calculator.getOperatorsTokens()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:833 - Unable to apply any optimisations to advised method: public void ua.goit.gojavaonline.Calculator.registerOperator(java.lang.String,ua.goit.gojavaonline.Operator)
+2016-08-03 20:40:36 DEBUG CglibAopProxy:797 - Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)
+2016-08-03 20:40:36 DEBUG CglibAopProxy:833 - Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:802 - Found 'hashCode' method: public native int java.lang.Object.hashCode()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:833 - Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException
+2016-08-03 20:40:36 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)
+2016-08-03 20:40:37 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+2016-08-03 20:40:37 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)
+2016-08-03 20:40:37 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()
+2016-08-03 20:40:37 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)
+2016-08-03 20:40:37 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()
+2016-08-03 20:40:37 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()
+2016-08-03 20:40:37 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+2016-08-03 20:40:37 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+2016-08-03 20:40:37 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)
+2016-08-03 20:40:37 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)
+2016-08-03 20:40:37 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()
+2016-08-03 20:40:37 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()
+2016-08-03 20:40:37 DEBUG CglibAopProxy:791 - Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()
+2016-08-03 20:40:37 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'calculator'
+2016-08-03 20:40:37 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'mathExpressionParser'
+2016-08-03 20:40:37 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'mathExpressionParser'
+2016-08-03 20:40:37 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'appConfig'
+2016-08-03 20:40:37 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'calculator'
+2016-08-03 20:40:37 DEBUG DefaultListableBeanFactory:757 - Autowiring by type from bean name 'mathExpressionParser' via factory method to bean named 'calculator'
+2016-08-03 20:40:37 DEBUG LogAspect:23 - logging : MathExpressionParser ua.goit.java.AppConfig.mathExpressionParser(Calculator)
+2016-08-03 20:40:37 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'mathExpressionParser' to allow for resolving potential circular references
+2016-08-03 20:40:37 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'mathExpressionParser'
+2016-08-03 20:40:37 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'logAspect'
+2016-08-03 20:40:37 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-08-03 20:40:37 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-08-03 20:40:37 DEBUG AnnotationConfigApplicationContext:779 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@6a03bcb1]
+2016-08-03 20:40:37 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-08-03 20:40:37 DEBUG PropertySourcesPropertyResolver:91 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2016-08-03 20:40:37 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'calculator'
+2016-08-03 20:40:37 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'mathExpressionParser'
+2016-08-03 20:40:41 DEBUG LogAspect:23 - logging : Operator ua.goit.gojavaonline.Calculator.getOperatorBySign(String)
+2016-08-03 20:40:41 DEBUG LogAspect:23 - logging : Operator ua.goit.gojavaonline.Calculator.getOperatorBySign(String)
+2016-08-03 20:40:41 DEBUG LogAspect:23 - logging : Operator ua.goit.gojavaonline.Calculator.getOperatorBySign(String)
+2016-08-03 20:40:41 DEBUG LogAspect:23 - logging : Operator ua.goit.gojavaonline.Calculator.getOperatorBySign(String)

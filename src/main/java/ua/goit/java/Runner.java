@@ -1,8 +1,9 @@
 package ua.goit.java;
 
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import ua.goit.gojavaonline.*;
+import ua.goit.gojavaonline.Calculator;
+import ua.goit.gojavaonline.MathExpressionParser;
+import ua.goit.gojavaonline.SubOperator;
 
 import java.util.Scanner;
 
@@ -11,7 +12,7 @@ import java.util.Scanner;
  */
 public class Runner {
     public static void main(String[] args) {
-        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
+        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
 
         Calculator calculator = applicationContext.getBean("calculator", Calculator.class);
         calculator.registerOperator("+", new CustomAddOperator());

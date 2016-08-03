@@ -3,7 +3,6 @@ package ua.goit.java;
 import ua.goit.gojavaonline.OperandTypeAnalyser;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.StringTokenizer;
 import java.util.regex.Pattern;
 
@@ -19,7 +18,6 @@ public class CustomOperandTypeAnalizer extends OperandTypeAnalyser{
 
     private static LocalDate parseData(String operand){
         StringTokenizer stringTokenizer = new StringTokenizer(operand, ":", true);
-        ArrayList parsedDate = new ArrayList();
         int year = Integer.parseInt(stringTokenizer.nextToken());
         stringTokenizer.nextToken();
         int month = Integer.parseInt(stringTokenizer.nextToken());
